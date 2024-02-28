@@ -1,5 +1,5 @@
 export function sort(width: number, height: number, length: number, mass: number): string {
-    if (width <= 0 || height <= 0 || length <= 0 || mass < 0) {
+    if (width <= 0 || height <= 0 || length <= 0 || mass <= 0) {
         throw new Error("Invalid dimensions or mass");
     }
 
